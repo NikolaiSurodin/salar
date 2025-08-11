@@ -206,7 +206,7 @@ const date = ref('')
 
                     <div class="info-item">
                       <div class="info-label">На карту:</div>
-                      <div class="info-value">-</div>
+                      <div class="info-value">{{ em.netPay }}</div>
                     </div>
                     <div class="info-item">
                       <div class="info-label">На кошелек:</div>
