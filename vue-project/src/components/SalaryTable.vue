@@ -71,6 +71,12 @@ const parseInputData = () => {
 // Function to generate PDF
 const generatePDF = () => {
   const element = document.getElementById('salary-cards');
+
+  if (!element) {
+    console.error('Element with id "salary-cards" not found');
+    return;
+  }
+
   const opt = {
     margin: 10,
     filename: `${employees.value[0]?.name}.pdf`,
