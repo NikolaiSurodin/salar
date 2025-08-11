@@ -210,7 +210,7 @@ const date = ref('')
                     </div>
                     <div class="info-item">
                       <div class="info-label">На кошелек:</div>
-                      <div class="info-value">€ 326,47</div>
+                      <div class="info-value">€ {{ em.cryptoAmount }}</div>
                     </div>
 
                     <div class="info-item">
